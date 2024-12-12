@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:portfolio_app/AboutMe.dart';
+import 'package:portfolio_app/custom_button.dart';
 
 class HomePage extends StatelessWidget{
   const HomePage({super.key});
@@ -79,6 +82,9 @@ class HomePage extends StatelessWidget{
                    },child: const Text("About me")),
                  ),
                ),
+               CustomButton(width: 300, height: 40, radius: 12, color: Colors.blue, myFun: (){
+                 Get.to(AboutPage());
+               }, child: Text("Next"))
              ],
            ),
          )
