@@ -6,119 +6,89 @@ class AboutPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: SingleChildScrollView(
-        scrollDirection: Axis.vertical,
-        child: Column(
+      body:Column(
           children: [
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Product Explorer App"),
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Portfolio App"
+                    "")
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Boba app"
+                    "")
+                
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Boba app"
+                    "")
+
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Boba app"
+                    "")
+
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Boba app"
+                    "")
+
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Boba app"
+                    "")
+
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Boba app"
+                    "")
+
               ],
             ),
             Row(
               children: [
                 SizedBox(height: 40),
                 CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
+                Text("Boba app"
+                    "")
+
               ],
             ),
-            Row(
-              children: [
-                SizedBox(height: 40),
-                CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
-              ],
-            ),
-            Row(
-              children: [
-                SizedBox(height: 40),
-                CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
-              ],
-            ),
-            Row(
-              children: [
-                SizedBox(height: 40),
-                CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
-              ],
-            ),
-            Row(
-              children: [
-                SizedBox(height: 40),
-                CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
-              ],
-            ),
-            Row(
-              children: [
-                SizedBox(height: 40),
-                CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
-              ],
-            ),
-            Row(
-              children: [
-                SizedBox(height: 40),
-                CircleAvatar(radius: 60),
-                Icon(Icons.text_snippet)
-              ],
-            ),
-            
           ],
-        ),
-      ),
+
+
 
 
     );
